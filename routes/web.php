@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 
-//4番
+
 Route::group(['prefix' => 'admin'], function(){
     Route::get('news/create',
     'Admin\NewsController@add');
@@ -29,7 +29,5 @@ Route::group(['prefix' => 'admin'], function(){
 });
 
 
-//3番
-Route::get('XXX',
-'Admin\AAAController@bbb');
+
 
